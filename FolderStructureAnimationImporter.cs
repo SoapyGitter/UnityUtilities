@@ -5,6 +5,10 @@ using System.IO;
 using System.Collections.Generic;
 using System.Linq;
 
+//This file imports 12 Directions of sprite animations,
+// It Loads images from folders, creates animation from those images, and creates blend tree from those animations
+// Directions and FolderName Structure could be controlled trhgough Variables '''directionFolderNames''' and '''directionPositions'''
+
 #if UNITY_EDITOR
 public class FolderStructureAnimationImporter : EditorWindow
 {
